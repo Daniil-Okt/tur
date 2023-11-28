@@ -1,0 +1,95 @@
+.wish {
+    @include adaptiveClamp(padding-top, 120, 64);
+    &__container {
+    }
+
+    &__row {
+        display: flex;
+        gap: rem(10);
+        align-items: center;
+        @media(max-width:1024px){
+            flex-direction: column;
+           @include adaptiveClamp(gap, 24, 16);
+        }
+    }
+
+    &__body {
+        max-width: rem(669);
+        @include adaptiveClamp(max-width, 669, 200);
+        @media(max-width:1024px){
+            @include adaptiveClamp(max-width, 669, 668);
+        }
+    }
+
+    &__title {
+        @include adaptiveClamp(margin-bottom, 32, 16);
+        
+    }
+
+    &__sub-text {
+        font-weight: 700;
+        margin-bottom: rem(16);
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: rem(16);
+        margin-bottom: rem(16);
+    }
+
+    &__item {
+        font-size: rem(14);
+    }
+
+    &__quote {
+        font-style: italic;
+        font-size: rem(14);
+        @include adaptiveClamp(margin-bottom, 32, 16);
+    }
+
+    &__button-row {
+        @media(max-width:1024px){
+            @include adaptiveClamp(margin-top, 35, 20);
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__button {
+    }
+
+    &__row-img {
+
+        display: grid;
+        @include adaptiveClamp(gap, 8.93, 5);
+        grid-template-columns: 1fr 1fr;
+        @media(max-width:1024px){
+            @include adaptiveClamp(max-width, 669, 668);
+        }
+    }
+
+    &__img {
+        @include adaptiveClamp(padding, 7.14, 3.99);
+        @include adaptiveClamp(border-radius, 10.716, 5.982);
+        background: var(--white-color);
+        img {
+            width: 100%;
+            @include adaptiveClamp(border-radius,  3.57, 1.994);
+        }
+        &:nth-child(1) {
+            transform: rotate(2.392deg);
+        }
+        &:nth-child(2) {
+            transform: rotate(-2.165deg);
+        }
+        &:nth-child(3) {
+            transform: rotate(2.499deg);
+        }
+        &:nth-child(4) {
+            transform: rotate(-2.028deg);
+        }
+    }
+}
+.button {
+}

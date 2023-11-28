@@ -1,0 +1,66 @@
+.address {
+    @include adaptiveClamp(padding-top, 120, 62);
+    &__container {
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: rem(16);
+        @media(max-width:1024px){
+            max-width: rem(668.68);
+            flex-direction: column;
+            margin: 0 auto;
+            @include adaptiveClamp(gap, 32, 16);
+        }
+    }
+
+    &__body {
+        
+    }
+
+    &__title {
+        @include adaptiveClamp(margin-bottom, 32, 16);
+    }
+
+    &__text {
+        @include adaptiveClamp(margin-bottom, 16, 8);
+        @include adaptiveClamp(font-size, 16, 14);
+        font-weight: 700;
+    }
+
+    &__contacts {
+        font-size: rem(14);
+        @media(max-width:680px){
+            display: flex;
+            flex-direction: column;
+        }
+        span {
+            color: #000;
+        }
+        a {
+            color: #0A54C6;
+            transition: all 0.3s ease  0s;
+            cursor: pointer;
+            &:hover {
+                color: #0646a7;
+            }
+        }
+    }
+
+    &__card {
+        @include adaptiveClamp(max-width, 576, 300);
+        width: 100%;
+        height: rem(235);
+        border-radius: 12px;
+        overflow: hidden;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+        @media(max-width:1024px){
+            @include adaptiveClamp(max-width, 650, 630);
+        }
+    }
+}

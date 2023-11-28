@@ -1,0 +1,103 @@
+.about {
+    margin-top: rem(-93);
+    position: relative;
+    padding-top: rem(294);
+    @include adaptiveClamp(padding-top, 294, 174);
+    @include adaptiveClamp(padding-bottom, 197, 134);
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url(@img/about-img.png) no-repeat center center / cover;
+        top:0;
+        left: 0;
+    }
+    &::after {
+        position: absolute;
+        content: '';
+        width: 1000;
+        @include adaptiveClamp(width, 2226, 1317);      
+        @include adaptiveClamp(height, 93, 55);
+        // height: 100%;
+        background: url(@img/about-fon.png) no-repeat center center / cover;
+        bottom:rem(-46);
+        
+        left: 0;
+        z-index: 2;
+        @media(min-width:2227px){
+            width: 100%;
+        }
+        @media(max-width:900px){
+            bottom:rem(-27);
+        }
+    }
+    &__container {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__title {
+        color: #E64B15;
+        text-align: center;
+        text-shadow: 0px 4px 44.70000076293945px #FFF4DE, 0px 4px 4px #FFF;
+        font-family: Appetite;
+        @include adaptiveClamp(font-size, 96, 32);
+        text-transform: uppercase;
+        font-style: italic;
+        line-height: normal;
+        margin-bottom: rem(10);
+    }
+
+    &__text {
+        font-weight: 700;
+        text-transform: uppercase;
+        @include adaptiveClamp(font-size, 32, 11.7);
+        // line-height: normal;
+        color: var(--white-color);
+        text-align: center;
+        @include adaptiveClamp(margin-bottom, 32, 10);
+    }
+
+    &__row {
+        display: flex;
+        justify-content: center;
+        @include adaptiveClamp(row-gap, 16, 4);
+        @include adaptiveClamp(column-gap, 16, 8);
+        @media(max-width:1140px){
+            flex-wrap: wrap;
+        }
+    }
+
+    &__item {
+        border-radius: 44px;
+        background: rgba(255, 255, 255, 0.78);
+        backdrop-filter: blur(6.050000190734863px);
+        @include adaptiveClamp(padding-left, 21, 10);
+        @include adaptiveClamp(padding-right, 21, 10);
+        @include adaptiveClamp(padding-top, 10, 5);
+        @include adaptiveClamp(padding-bottom, 10, 5);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        @include adaptiveClamp(gap, 10, 4);
+        img {
+            @include adaptiveClamp(width, 28, 16);
+            @include adaptiveClamp(height, 28, 16);
+        }
+        p {
+            @include adaptiveClamp(font-size, 16, 10);
+            font-weight: 700;
+            color: #E64B15;
+        }
+        &:nth-child(1) {
+            @include adaptiveClamp(padding-left, 21, 14);
+        @include adaptiveClamp(padding-right, 21, 14);
+        }
+        &:nth-child(2) {
+            @include adaptiveClamp(padding-left, 21, 14);
+            @include adaptiveClamp(padding-right, 21, 14);
+        }
+    }
+}
