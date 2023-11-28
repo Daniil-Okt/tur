@@ -1,15 +1,39 @@
 .footer {
-  padding: rem(20) 0;
-  background: var(--black-color);
+  padding: rem(24) 0;
+  background: #878787;
 
   // .footer__container
+  &__logo {
+    width: rem(110);
+    img {
+      width: 100%;
+    }
+  }
   &__container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    @media(max-width:820px){
+        justify-content: center;
+    }
+  }
+  &__content {
+    @media(max-width:820px){
+        display: none;
+    }
+  }
+  .address__text {
+    color: var(--white-color);
+    margin-bottom: rem(8);
 
-    @include media-mx(510) {
-      flex-direction: column;
-      align-items: flex-start;
+  }
+  .address__contacts {
+    color: var(--white-color);
+    a {
+      color: var(--white-color);
+    }
+    span {
+      color: var(--white-color);
     }
   }
 }

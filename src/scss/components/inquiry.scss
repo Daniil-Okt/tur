@@ -17,6 +17,9 @@
     &__container {
         position: relative;
         z-index: 2;
+        @media(max-width:900px){
+            max-width: rem(668.68);
+        }
     }
 
     &__title {
