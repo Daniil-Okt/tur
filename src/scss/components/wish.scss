@@ -60,7 +60,7 @@
     }
 
     &__row-img {
-
+        @include adaptiveClamp(max-width, 601, 300);
         display: grid;
         @include adaptiveClamp(gap, 8.93, 5);
         grid-template-columns: 1fr 1fr;
@@ -74,7 +74,13 @@
         @include adaptiveClamp(border-radius, 10.716, 5.982);
         background: var(--white-color);
         img {
+            height: 100%;
+
+            // @include adaptiveClamp(width, 272, 152);
+            // @include adaptiveClamp(height, 203, 113);
             width: 100%;
+            height: 100%;
+            object-fit: cover;
             @include adaptiveClamp(border-radius,  3.57, 1.994);
         }
         &:nth-child(1) {

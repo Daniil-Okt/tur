@@ -1,528 +1,276 @@
-<div class="inquiry">
+<div class="inquiry" id="inquiry">
     <div class="inquiry__container">
         <h2 class="inquiry__title">
             Расписание и цены
         </h2>
         <div class="inquiry__content">
             <div class="inquiry__row-two">
-                <div class="inquiry__item item-inquiry">
-                    <p class="item-inquiry__data">
-                        10 декабря 2023
-                    </p>
-                    <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head">Время проведения</div>
-                        <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
-                            <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
-                            <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
-                            <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
-                        </ul>
-                    </div>
-                    <p class="item-inquiry__cost">
-                        Стоимость:  <span>1 300 руб</span>
-                    </p>
-                    <div class="item-inquiry__button button">
-                        <p>
-                            Купить
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
-                    <p class="item-inquiry__data">
-                        12 декабря 2023
-                    </p>
-                    <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head">Время проведения</div>
-                        <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
-                            <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
-                            <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
-                            <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
-                        </ul>
-                    </div>
-                    <p class="item-inquiry__cost">
-                        Стоимость:  <span>1 300 руб</span>
-                    </p>
-                    <div class="item-inquiry__button button">
-                        <p>
-                            Купить
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
-                    <p class="item-inquiry__data">
-                        13 декабря 2023
-                    </p>
-                    <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head">Время проведения</div>
-                        <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
-                            <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
-                            <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
-                            <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
-                        </ul>
-                    </div>
-                    <p class="item-inquiry__cost">
-                        Стоимость:  <span>1 300 руб</span>
-                    </p>
-                    <div class="item-inquiry__button button">
-                        <p>
-                            Купить
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="inquiry__row">
-                <div class="inquiry__item item-inquiry">
-                    <p class="item-inquiry__data">
-                        14 декабря 2023
-                    </p>
-                    <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head">Время проведения</div>
-                        <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
-                            <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
-                            <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
-                            <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
-                        </ul>
-                    </div>
-                    <p class="item-inquiry__cost">
-                        Стоимость:  <span>1 300 руб</span>
-                    </p>
-                    <div class="item-inquiry__button button">
-                        <p>
-                            Купить
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         15 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         16 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         17 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
+                    </button>
+                </form>
+                
             </div>
-            <div class="inquiry__row-two">
-                <div class="inquiry__item item-inquiry">
+            <div class="inquiry__row">
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         18 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         19 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         20 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="inquiry__row">
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         21 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                
+            </div>
+            <div class="inquiry__row-two">
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         22 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         23 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
+                    </button>
+                </form>
+                <form action="#" class="inquiry__item item-inquiry">
                     <p class="item-inquiry__data">
                         24 декабря 2023
                     </p>
                     <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
+                        <input class="select__input" name="time" type="hidden" name="">
                         <div class="select__head">Время проведения</div>
                         <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
                             <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
                             <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
                             <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
+                            <li class="select__item">18.00</li>
                         </ul>
                     </div>
                     <p class="item-inquiry__cost">
                         Стоимость:  <span>1 300 руб</span>
                     </p>
-                    <div class="item-inquiry__button button">
+                    <button type="submit" class="item-inquiry__button button">
                         <p>
                             Купить
                         </p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
                         </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="inquiry__row-two">
-                <div class="inquiry__item item-inquiry">
-                    <p class="item-inquiry__data">
-                        25 декабря 2023
-                    </p>
-                    <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head">Время проведения</div>
-                        <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
-                            <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
-                            <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
-                            <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
-                        </ul>
-                    </div>
-                    <p class="item-inquiry__cost">
-                        Стоимость:  <span>1 300 руб</span>
-                    </p>
-                    <div class="item-inquiry__button button">
-                        <p>
-                            Купить
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
-                    <p class="item-inquiry__data">
-                        26декабря 2023
-                    </p>
-                    <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head">Время проведения</div>
-                        <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
-                            <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
-                            <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
-                            <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
-                        </ul>
-                    </div>
-                    <p class="item-inquiry__cost">
-                        Стоимость:  <span>1 300 руб</span>
-                    </p>
-                    <div class="item-inquiry__button button">
-                        <p>
-                            Купить
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="inquiry__item item-inquiry">
-                    <p class="item-inquiry__data">
-                        27 декабря 2023
-                    </p>
-                    <div class="item-inquiry__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head">Время проведения</div>
-                        <ul class="select__list">
-                            <li class="select__item">10.00</li>
-                            <li class="select__item">11.00</li>
-                            <li class="select__item">12.00</li>
-                            <li class="select__item">13.00</li>
-                            <li class="select__item">14.00</li>
-                            <li class="select__item">15.00</li>
-                            <li class="select__item">16.00</li>
-                            <li class="select__item">17.00</li>
-                        </ul>
-                    </div>
-                    <p class="item-inquiry__cost">
-                        Стоимость:  <span>1 300 руб</span>
-                    </p>
-                    <div class="item-inquiry__button button">
-                        <p>
-                            Купить
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                            <path d="M12.88 26.7059V23.1544L11.0001 24.2699L10.08 23.6909V22.4426L12.88 20.7705V18.4364L10.64 19.8089V17.336L8.39999 18.5086V21.863L7.47431 22.5518L6.71999 21.9297V19.6829L3.59855 21.4313L2.23999 20.8718V19.4556L5.42359 17.6804L3.35999 16.6601V15.3609L4.54887 14.7297L7.46871 16.4478L9.49143 15.2808L9.44551 15.2444L7.39311 14.0555L9.39119 12.8078L7.38807 11.6413L4.46879 13.3505L3.35999 12.8078V11.5159L5.34351 10.4082L2.23999 8.69854V7.2823L3.53975 6.65846L6.71999 8.44878V6.16622L7.55159 5.5351L8.63967 6.1959L8.60831 9.6147L10.6652 10.803L10.6837 8.38886L12.88 9.5643V7.23078L10.08 5.5575V4.31766L11.0001 3.72966L12.88 4.84518V1.3015L13.9966 0.560059L15.12 1.3015V4.84518L17.3074 3.70782L18.48 4.39046V5.50598L15.12 7.23078V9.5643L17.36 8.29478V10.8338L19.6 9.66678V6.01334L20.4148 5.52838L21.28 6.01278V8.3463L24.5515 6.6215L25.76 7.30358V8.62462L22.6828 10.3998L24.64 11.4941V12.7563L23.6152 13.3141L20.6321 11.5456L18.5718 12.8593L20.5593 14.107L18.5102 15.2953L20.6226 16.4109L23.6404 14.7387L24.64 15.4197V16.6237L22.7808 17.6804L25.76 19.4556V20.85L24.3477 21.4307L21.28 19.7574V21.9722L20.4288 22.5597L19.6 21.9722V18.6111L17.36 17.3718V19.7059L15.12 18.4358V20.7699L17.92 22.4421V23.7631L16.9977 24.2693L15.12 23.1549V26.7065L13.9966 27.4401L12.88 26.7059ZM12.059 14.0516L13.1152 15.6801H15.083L15.9863 14.0516L15.0321 12.3201H13.0642L12.059 14.0516Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
+                    </button>
+                </form>
             </div>
         </div>
         <div class="inquiry__text">

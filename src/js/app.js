@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		  } else {
 			// head.classList.remove('open');
 			// head.nextElementSibling.classList.remove('open');
-			head.closest('.catalog__head').querySelector('.select__list').classList.remove('open');		  }
+		}
 		  
 		});
 	  }

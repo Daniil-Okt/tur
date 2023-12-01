@@ -65,10 +65,12 @@
         @include adaptiveClamp(width, 126, 65.9);
         img {
             width: 100%;
+            
         }
     }
 
     &__button {
+        color: var(--white-color);
         display: flex;
         @include adaptiveClamp(gap, 16, 8);
         align-items: center;
